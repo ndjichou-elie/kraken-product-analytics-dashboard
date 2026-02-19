@@ -1,0 +1,29 @@
+/* Main background */
+.main {
+    background-color: #0e1117;
+    color: white;
+}
+
+/* Remove Streamlit footer */
+footer {
+    visibility: hidden;
+}
+
+/* Remove hamburger menu */
+#MainMenu {
+    visibility: hidden;
+}
+
+/* Metric card styling */
+[data-testid="metric-container"] {
+    background-color: #161b22;
+    border: 1px solid #30363d;
+    padding: 15px;
+    border-radius: 12px;
+}
+
+/* Titles */
+h1, h2, h3 {
+    color: #58a6ff;
+    font-family: "Segoe UI", sans-serif;
+}

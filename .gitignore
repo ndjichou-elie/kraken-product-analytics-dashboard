@@ -1,0 +1,23 @@
+venv/
+__pycache__/
+*.pyc
+.DS_Store
+.idea/
+.vscode/
+
+# local DB (can be regenerated)
+analytics.db
+
+# ignore all outputs by default
+outputs/*
+
+# but keep the gold outputs + docs
+!outputs/gold_*.csv
+!outputs/insights_summary.md
+!outputs/gold_ab_sample_size.csv
+!outputs/gold_retention_curve_fixed.csv
+!outputs/gold_retention_curve.csv
+!outputs/gold_retention_cohorts.csv
+
+# if you add screenshots later
+assets/

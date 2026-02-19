@@ -1,0 +1,2 @@
+baseline_p1,target_p2,absolute_lift_pp,n_per_group,total_n,confidence_level,power
+0.293648,0.303648,1.0,32842,65684,95%,80%
